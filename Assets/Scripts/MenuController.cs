@@ -12,7 +12,7 @@ public class MenuController : MonoBehaviour {
     }
 
 	public void GoShoppingClick () {
-	
+        SceneManager.LoadScene("AR");
 	}
 
     public void SearchLocationClick ()
